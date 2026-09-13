@@ -1,0 +1,19 @@
+graph NJ {
+  "interno0" [label="", shape=point];
+  "interno1" [label="", shape=point];
+  "S1" [label="S1", shape=box];
+  "interno2" [label="", shape=point];
+  "S3" [label="S3", shape=box];
+  "S4" [label="S4", shape=box];
+  "interno2" -- "S3" [label="0.424449"];
+  "interno2" -- "S4" [label="0.147156"];
+  "interno1" -- "S1" [label="0.00641938"];
+  "interno1" -- "interno2" [label="0.342915"];
+  "interno3" [label="", shape=point];
+  "S2" [label="S2", shape=box];
+  "S5" [label="S5", shape=box];
+  "interno3" -- "S2" [label="0.0223865"];
+  "interno3" -- "S5" [label="0.801573"];
+  "interno0" -- "interno1" [label="0.147952"];
+  "interno0" -- "interno3" [label="0"];
+}

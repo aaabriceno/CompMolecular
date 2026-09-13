@@ -1,0 +1,19 @@
+graph UPGMA {
+  "interno0" [label="0.609986", shape=circle];
+  "S5" [label="S5", shape=box];
+  "interno1" [label="0.372673", shape=circle];
+  "interno2" [label="0.0601285", shape=circle];
+  "S1" [label="S1", shape=box];
+  "S2" [label="S2", shape=box];
+  "interno2" -- "S1";
+  "interno2" -- "S2";
+  "interno3" [label="0.285803", shape=circle];
+  "S3" [label="S3", shape=box];
+  "S4" [label="S4", shape=box];
+  "interno3" -- "S3";
+  "interno3" -- "S4";
+  "interno1" -- "interno2";
+  "interno1" -- "interno3";
+  "interno0" -- "S5";
+  "interno0" -- "interno1";
+}
